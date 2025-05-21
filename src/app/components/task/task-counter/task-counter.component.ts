@@ -3,7 +3,7 @@ import { TaskCountBoxComponent } from '../task-count-box/task-count-box.componen
 
 @Component({
   selector: 'app-task-counter',
-  imports: [],
+  imports: [TaskCountBoxComponent],
   templateUrl: './task-counter.component.html',
   styleUrl: './task-counter.component.css'
 })
