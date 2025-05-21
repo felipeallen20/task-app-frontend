@@ -10,5 +10,5 @@ import { MatCardModule } from '@angular/material/card';
 export class TaskCountBoxComponent {
   @Input() title: string = '';
   @Input() count: number = 0;
-  @Input() color: string = '#000'; // Color del borde
+  @Input() color: string = '#000'; 
 }
