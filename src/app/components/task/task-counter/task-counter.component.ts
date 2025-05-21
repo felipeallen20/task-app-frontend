@@ -8,5 +8,7 @@ import { TaskCountBoxComponent } from '../task-count-box/task-count-box.componen
   styleUrl: './task-counter.component.css'
 })
 export class TaskCounterComponent {
-
+  pendingCount = 0;
+  completedCount = 0;
+  inProgressCount = 0;
 }
