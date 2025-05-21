@@ -1,0 +1,7 @@
+.count-container {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
