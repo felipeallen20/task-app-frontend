@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-task-count-box',
-  imports: [],
   templateUrl: './task-count-box.component.html',
-  styleUrl: './task-count-box.component.css'
+  styleUrls: ['./task-count-box.component.css']
 })
 export class TaskCountBoxComponent {
-
+  @Input() title: string = '';
+  @Input() count: number = 0;
+  @Input() color: string = '#000'; // Color del borde
 }
