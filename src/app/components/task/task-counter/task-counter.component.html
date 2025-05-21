@@ -1,1 +1,20 @@
-<p>task-counter works!</p>
+<div class="count-container">
+  <app-task-count-box
+    title="Tareas pendientes"
+    [count]="pendingCount"
+    color="orange">
+  </app-task-count-box>
+
+  <app-task-count-box
+    title="Tareas completadas"
+    [count]="completedCount"
+    color="green">
+  </app-task-count-box>
+
+  <app-task-count-box
+    title="Tareas en progreso"
+    [count]="inProgressCount"
+    color="blue">
+  </app-task-count-box>
+</div>
+
