@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TaskCountBoxComponent } from '../task-count-box/task-count-box.component';
 
 @Component({
   selector: 'app-task-counter',
